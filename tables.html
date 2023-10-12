@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>HTML tables</h1>
+<!-- 1. Table tag <table></table>  -->
+<!-- 2. Table row <tr></tr> -->
+<!-- 3. Table head <th></th> -->
+<!-- 4. Table data <td></td> -->    
+    <h2>Table rows</h2>
+    <br>
+    <table border="" width="100%">
+        <caption>First table</caption>
+<!-- using the attribute of border adds lines round the data set -->
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bill Gates</td>
+            <td>Founder</td>
+            <td>$1000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Steve Jobs</td>
+            <td>Founder Apple</td>
+            <td>$1200</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Founder Google</td>
+            <td>$1100</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mark Zuckerberg</td>
+            <td>Founder Facebook</td>
+            <td>$1300</td>
+        </tr>
+    </table>
+    <br>
+        
+    <table border="" width="100%">
+        <caption>Second table</caption>
+        <tr>
+            <th>S/N</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <!-- <tr>
+            <th>S/N</th>
+            <th>Bill Gates</th>
+            <th>Steve Jobs</th>
+            <th>Larry Page</th>
+            <th>Mark Zuckerberg</th>
+        </tr> -->
+        <tr>
+            <td><b>Full Names</b></td>
+            <td>Bill Gates</td>
+            <td>Steve Jobs</td>
+            <td>Larry Page</td>
+            <td>Mark Zuckerberg</td>
+        </tr>
+        <tr>
+            <td><b>Position</b></td>
+            <td>Founder Microsoft</td>
+            <td>Founder Apple</td>
+            <td>Founder Google</td>
+            <td>Founder Facebook</td>
+        </tr>
+        <tr>
+            <td><b>Salary</b></td>
+            <td>$1000</td>
+            <td>$1200</td>
+            <td>$1100</td>
+            <td>$1300</td>
+        </tr>
+        <tr></tr>
+
+    </table>
+    <br>
+
+    <table border="" width="50%">
+        <caption>Third table</caption>
+        <tr>  
+            <!-- Rowspan is used to indicate the number of rows we want -->
+            <!-- Colspan is used to indicate the number of columns we want  -->
+            <!-- rowspam and colspan are only essentially used for th and td -->
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red eyes</th>
+        </tr>
+        <tr>
+            <th>height</th>
+            <th>weight</th>
+        </tr>
+        <tr>
+            <th>Males</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <th>Females</th>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+    <br>
+
+    <table border="" width="50%">
+        <caption>Fourth table</caption>
+        <tr>
+            <th colspan="2">Cell 1</th>
+            <th>Cell 2</th>
+            <th>Cell 3</th>
+        </tr>
+        <tr>
+            <th rowspan="3">Cell 4</th>
+            <th>Cell 5</th>
+            <th>Cell 6</th>
+            <th>Cell 7</th>
+        </tr>
+        <tr>
+            <th colspan="3">Cell 8</th>
+        </tr>
+        <tr>
+            <th>Cell 9</th>
+            <th colspan="2">Cell 10</th>
+        </tr>
+    </table>
+    <br>
+<a href="index.html">Home</a>
+    
+</body>
+</html>

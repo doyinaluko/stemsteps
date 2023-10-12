@@ -1,0 +1,35 @@
+span{
+    border-width: 10px;
+    border-style: solid;
+    border-color: orange #000000 gray yellowgreen;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+p{
+    text-align: center;
+}
+
+div{
+    border-width: 10px;
+    border-style: solid;
+    border-color: orange #000000 gray yellowgreen;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.img-container{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 0;
+    border-color: orange red grey yellowgreen;
+}
+
+.brand-logo{
+    width: 500px;
+}
