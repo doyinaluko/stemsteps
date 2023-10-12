@@ -14,7 +14,7 @@ h1, p{
 .card{
     margin: auto;
     width: 30%;
-    height: 500px;
+    height: 800px;
     border-radius: 0;
     border-color: orange red grey yellowgreen;
     border-style: solid;
@@ -27,6 +27,9 @@ h1, p{
 .turningnorth{
     width: 100%;
 }
+hr{
+    
+}
 
 /* Responsive cards */
 @media screen and (max-width: 600px) {
@@ -35,4 +38,11 @@ h1, p{
       display: block;
       margin-bottom: 20px;
     }
-    
+}
+/* @media screen and (max-width: 800px) {
+        .card {
+          width: 45%;
+          display: inline-block;
+          margin-bottom: 20px;
+        }
+    } */
