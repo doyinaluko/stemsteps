@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+.starter{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: green;
+    color: black;
+    border-color: whitesmoke;
+}
+.starter:hover{
+    color: black;
+    background-color: greenyellow;
+}
+
+.bg-img{
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    background-image: url(football.jpg);
+    /* Background-size makes the image to use the full width of the box we are using */
+    background-size: cover;
+}
+.dark-scarf{
+    height: inherit;
+    /* inherit makes the child element to take on the color of the parent element */
+    background-color: rgba(0,0,0,0.3);
+}

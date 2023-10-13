@@ -1,16 +1,3 @@
-.bg-img{
-    height: 600px;
-    border-style: solid;
-    border-color: black;
-    background-image: url(football.jpg);
-    /* Background-size makes the image to use the full width of the box we are using */
-    background-size: cover;
-}
-.dark-scarf{
-    height: inherit;
-    /* inherit makes the child element to take on the color of the parent element */
-    background-color: rgba(0,0,0,0.3);
-}
 h1, p{
     padding: 10px;
     text-align: center;
