@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-1{
+    background-color: red;
+}
+.item-2, .item-3{
+    width: 300px;
+    background-color: green;
+}
+.item-4{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+.item-5{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
