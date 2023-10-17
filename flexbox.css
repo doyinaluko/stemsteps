@@ -1,0 +1,18 @@
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+
+
+.flex-img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+/* .main-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+} */
