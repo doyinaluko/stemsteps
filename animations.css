@@ -32,6 +32,23 @@
     animation-direction: alternate-reverse;
     transition-timing-function: ease;
 }
+.rectangle-4{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: goldfinch;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+.rectangle-5{
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
 
 @keyframes turningnorth {
     from{
@@ -75,5 +92,44 @@
     to{
         background-color: grey;
         transform: translateX(200px);
+    }
+}
+
+@keyframes goldfinch {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: aquamarine;
+        transform: translateX(150px);
+        border-radius: 50%;
+    }
+    50%{
+        background-color: blueviolet;
+        transform: translateX(250px);
+        border-radius: 25%;
+    }
+    75%{
+        background-color: orange;
+        transform: translateX(150px);
+        border-radius: 50%;
+    }
+    100%{
+        background-color: chocolate;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes circle{
+    from{
+        background-color: grey;
+        transform: translateX(0);
+        border-radius: 0;
+    }
+    to{
+        background-color: yellowgreen;
+        transform: translateX(300px);
+        border-radius: 50%;
     }
 }
